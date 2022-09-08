@@ -10,4 +10,4 @@ console.log(car)
 
 //const variable
 const watch = "skagen";
-console.log(watch)
+console.log(watch);
