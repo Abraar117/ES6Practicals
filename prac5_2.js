@@ -10,7 +10,7 @@ console.log(
 );
 ch = parseInt(prompt("Enter your choice: "));
 switch (ch) {
-  case 1:
+  case 1:g
     console.log("Addition of the two numbers: ", i + j);
     break;
   case 2:
