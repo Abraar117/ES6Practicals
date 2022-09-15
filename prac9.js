@@ -7,17 +7,12 @@ var str3 = new String("This is the third string.");
 console.log("String Methods: ")
 
 console.log("charAt() Method:");
-console.log("Third character is:" + str1.charAt(0));
 console.log("Second character is:" + str1.charAt(1));
-console.log("Third character is:" + str1.charAt(2));
+
+console.log("concat() Method: ",str2.concat(str3));
 console.log("\n");
 
-console.log("concat() Method:");
-console.log("Concatenated String is:",str2.concat(str3));
-console.log("\n");
-
-console.log("slice() Method:")
-console.log("Sliced string is: ",str2.slice(5));
+console.log("slice() Method: ",str2.slice(5))
 console.log("\n");
 
 //Array Methods
@@ -28,6 +23,20 @@ let fbrands = ["RalphLauren","Ferragamo","Tumi"];
 console.log("concat() Method: ",pbrands.concat(fbrands));
 console.log("indexOf() Method: ",fbrands.indexOf("Tumi"));
 console.log("push() Method: ",pbrands.push("Oneplus"),pbrands);
+console.log("\n");
 
 //Math Methods
+console.log("Math Methods: ");
+console.log("Math.pow() Method: ",Math.pow(3,5));
+console.log("Math.sqrt() Method: ",Math.sqrt(256));
+console.log("Math.cbrt() Method: ",Math.cbrt(729));
+console.log("\n");
+
+//Date Methods
+console.log("Date Methods: ");
+console.log("Date() Method: ",Date());
+var dt = new Date("June 11, 2002 23:15:12"); 
+console.log("getDay() Method: ",dt.getDay());
+console.log("getSeconds() Method: ",dt.getSeconds());
+
 

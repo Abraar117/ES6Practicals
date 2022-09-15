@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")({ signint: true });
 
 var i, j, ch;
 
-i = parseInt(prompt("Enter first number: "));hrt
+i = parseInt(prompt("Enter first number: "));
 j = parseInt(prompt("Enter second number: "));
 console.log(
   "***WELCOME*** \nSelect \n 1 For Addition \n 2 For Subtraction \n 3 For Multiplication \n 4 For Division"
