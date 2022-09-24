@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")();
 
 console.log()
-var n = Number(prompt("Enter "))
+var n = Number(prompt("Enter a number to find factorial: "))
 var sum = 1
 var fact = 1
 
@@ -10,7 +10,7 @@ for(var i = 2; i <= n; i++) {
         if(i % 2 != 0) sum += fact
     }
 
-console.log("Sum of odd factorials of first "+n+" integers is:",sum)
+console.log("Sum of odd factorials of first "+n+" integers is: ",sum)
 console.log()
 var n = prompt("Enter the number to reverse: ")
 var rev = ""
